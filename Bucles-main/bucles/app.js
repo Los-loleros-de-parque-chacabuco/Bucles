@@ -242,6 +242,16 @@ for (n = 0; n <pepe; n++){
 // 6) Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci. 
 
 var cantidad= parseInt(prompt("Ingrese un Numero por favor"))
-    for (n= 0; n <cantidad; n++) {
-          
-    }
+var valor1=1
+var valor2=1
+var dato= cantidad%2
+cantidad/=2
+cantidad=Math.round(cantidad)
+for (n= 0; n <cantidad; n++) {
+ alert("Ronda de caracteres " + n + ":" +valor1)
+ /*if (n=(cantidad-1)&&dato!=0) {
+     alert("termino")
+ }else (*/alert("Ronda de caracteres " + n + ":" +valor2)
+ valor1+=valor2
+ valor2+=valor1
+}
