@@ -150,11 +150,37 @@ for (n = 0; n <pepe; n++){
 // }while(numero%3!=0)
 // alert("Muy bien ingresante un multiplo de 3")
 
+//Bonus desafíos matemáticos !!
 
+//1) Agregar al ejercicio 5 una validación de que solo se acepte números del 1 al 10. Si ingresa un número no válido, volver a solicitar el dato. 
 
+// 5)Solicitar al usuario que ingrese tantos números como desee y luego mostrar el promedio de ellos.
+// var numeros=parseInt(prompt("¿Cuantos numeros quiere ingresar?"))
+// var suma=0;
+// var promedio;
+// for(n=0;n<numeros;n++){
+//     s=parseInt(prompt('Ingrese número' + n + ': ', ''))
+//     if (s==10 || s<10) {
+//         suma+=(s)
+//         promedio=suma/numeros;
+//         alert(promedio)
+//         }
+// else{alert("Ingresaste un numero muy grande")
+// }
+// }
 
+// 2) Realizar un programa que pida números consecutivos (3, 4 y 5; 9, 10 y 11, etc.). Cuando se introducen tres números consecutivos dice “gracias” y termina. Mientras no se introduzcan tres números consecutivos el programa sigue pidiendo números indefinidamente.
 
+// var PrimerNumero
+// var consecutivos
+// var consecutivos2
+// do{
+//     PrimerNumero=parseInt(prompt("Ingrese un numero"))
+//     consecutivos=parseInt(prompt("Ingrese su consecutivo"))
+//     consecutivos2=parseInt(prompt("Ingrese su consecutivo"))
+// }while (consecutivos!=PrimerNumero+1 || consecutivos2!=consecutivos+1)
 
-
-
+// 3) Realizar un programa que pida dos números y diga su máximo común divisor. ?(notas sobre el Máximo Común Divisor: 
+// - Es el máximo número por el cuál se puede dividir un número dejando resto 0.
+// - No puede ser mayor al valor de la mitad del menor número o sí mismo (Ejemplo: Si mis números son 9 y 12, no puede estar entre 5 y 8, ni ser mayor a 9).(Ejemplo: Si mis números son 10 y 15, no puede estar entre 6 y 9, ni ser mayor a 10). (Podemos probar: 1,2,3,4,10).
 
