@@ -144,15 +144,15 @@ for (n = 0; n <pepe; n++){
 // var numero;
 // do{
 //     numero=parseInt(prompt("Ingrese un numero"))
-    
+
 
 
 // }while(numero%3!=0)
 // alert("Muy bien ingresante un multiplo de 3")
 
-//Bonus desafíos matemáticos !!
+//BONUS DESAFIOS MATEMÁTICOS !!
 
-//1) Agregar al ejercicio 5 una validación de que solo se acepte números del 1 al 10. Si ingresa un número no válido, volver a solicitar el dato. 
+// 1) Agregar al ejercicio 5 una validación de que solo se acepte números del 1 al 10. Si ingresa un número no válido, volver a solicitar el dato. 
 
 // 5)Solicitar al usuario que ingrese tantos números como desee y luego mostrar el promedio de ellos.
 // var numeros=parseInt(prompt("¿Cuantos numeros quiere ingresar?"))
@@ -204,4 +204,44 @@ for (n = 0; n <pepe; n++){
 // }
 // alert("El divisor maximo de los dos numeros es " + MaxDivisor)
 
+// 4) Solicitar al usuario que ingrese números. Mostrar los primeros tres multiplicados por 1, luego los próximos tres multiplicados por 2 y así sucesivamente. Cortar cuando el usuario ingrese un número mayor a 100. En cada iteración se debe mostrar la salida. Ejemplo:
+// Ingresa 1 > muestra 1 
+// Ingresa 8 > muestra 8
+// Ingresa 3 > Muestra 3
+// ingresa 4 > Muestra 8
+// Ingresa 9 > Muestra 18
+// Ingresa 50 > Muestra 100
+// Ingresa 7 > Muestra 21
+// ingresa 10 > Muestra 30
 
+// var n=-1
+// var multiplicacion=0
+// do{
+//     a=parseInt(prompt("ingrese un numero"))
+//     n+=1
+//     let resto=n%3
+//         if (resto===0) {
+//             multiplicacion+=1
+//             a*=multiplicacion
+//         }
+//         else (a*=multiplicacion)
+//     alert("tu numero es "+ a)     
+// }while(a<100)
+
+// 5) Solicitar al usuario que ingrese 10 números, calcular el factorial de cada uno de ellos  y mostrarlo
+// for (i = 0; i < 10; i++) {
+// var numero =parseInt(prompt("Ingresa un numero"))
+// numero+=1
+// var multiplicacion=1;
+// for(n=1;n<numero;n++){
+//  multiplicacion*=n;
+// }
+// alert(multiplicacion)
+// }
+
+// 6) Solicitar al usuario que ingrese un número y mostrar esa cantidad de dígitos de la secuencia de Fibonacci. 
+
+var cantidad= parseInt(prompt("Ingrese un Numero por favor"))
+    for (n= 0; n <cantidad; n++) {
+          
+    }
