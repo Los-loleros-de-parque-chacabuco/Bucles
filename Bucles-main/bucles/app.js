@@ -184,22 +184,24 @@ for (n = 0; n <pepe; n++){
 // - Es el máximo número por el cuál se puede dividir un número dejando resto 0.
 // - No puede ser mayor al valor de la mitad del menor número o sí mismo (Ejemplo: Si mis números son 9 y 12, no puede estar entre 5 y 8, ni ser mayor a 9).(Ejemplo: Si mis números son 10 y 15, no puede estar entre 6 y 9, ni ser mayor a 10). (Podemos probar: 1,2,3,4,10).
 
-var Numero1=parseInt(prompt("Ingrese su Primer Numero"))
-var Numero2=parseInt(prompt("Ingrese su Segundo Numero"))
-var Cuenta1=Cuenta1
-var Cuenta2=Cuenta2
-var Max
-var MaxDivisor=0
-if (Numero1 <Numero2) {
-    Max= Numero2
-}else(Max=Numero1)
-for (n =1; n< Max;n++) {
-    Cuenta1=Numero1%n
-    Cuenta2=Numero2%n
-    if (Cuenta1===0 && Cuenta2===0) {
-        if (n>MaxDivisor) {
-            MaxDivisor=n  
-        } 
-    }
-}
-alert("El divisor maximo de los dos numeros es " + MaxDivisor)
+// var Numero1=parseInt(prompt("Ingrese su Primer Numero"))
+// var Numero2=parseInt(prompt("Ingrese su Segundo Numero"))
+// var Cuenta1=Cuenta1
+// var Cuenta2=Cuenta2
+// var Max
+// var MaxDivisor=0
+// if (Numero1 <Numero2) {
+//     Max= Numero2
+// }else(Max=Numero1)
+// for (n =1; n< Max;n++) {
+//     Cuenta1=Numero1%n
+//     Cuenta2=Numero2%n
+//     if (Cuenta1===0 && Cuenta2===0) {
+//         if (n>MaxDivisor) {
+//             MaxDivisor=n  
+//         } 
+//     }
+// }
+// alert("El divisor maximo de los dos numeros es " + MaxDivisor)
+
+
