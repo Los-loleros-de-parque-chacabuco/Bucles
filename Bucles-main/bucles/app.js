@@ -233,11 +233,15 @@
 // var dato = cantidad % 2
 // cantidad /= 2
 // cantidad = Math.round(cantidad)
-// for (n = 0; n < cantidad; n++) {
-//     alert("Ronda de caracteres " + n + ":" + valor1)
-//     if (n = (cantidad - 1) && dato != 0) {
-//         alert("termino")
-//     } else (alert("Ronda de caracteres " + n + ":" + valor2))
+// for (n = 1; n < cantidad; n++) {
+//     alert("Ronda de caracteres" + ": " + valor1)
+//     alert("Ronda de caracteres" + ": " + valor2)
 //     valor1 += valor2
 //     valor2 += valor1
+// }
+// if (dato != 0) {
+//     alert("Ronda de caracteres " + ": " + valor1)
+// } else{
+// alert("Ronda de caracteres" + ": " + valor1)
+// alert("Ronda de caracteres" + ": " + valor2)
 // }
